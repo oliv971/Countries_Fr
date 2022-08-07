@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/world-g1fba8f7c3_1920.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/************************ NAVBAR *************************/
+
+nav{
+    width: 100%;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    transition: all 0.2s ease-in 0s;
+
+}
+
+.container-fluid a{
+    margin: auto;
+    color: white !important;
+    font-size: 16px;
+
+}
+
+a:focus{
+    color: orange !important;
+}
+
+a:hover{
+    color: #0046af !important;
+}
+
+/************************ TITRE *************************/
+
+#entete{
+    margin: 20px;
+}
+
+#bouton{
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: #fff !important;
+    transition: all 0.2s ease-in 0s;
+
+}
+
+h3{
+    text-align: center;
+    color: white;
+    margin: auto auto 40px auto;
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 3px;
+    font-weight:bold;
+}
+
+
+/* **********************DIV CONTENU*********************** */
+
+/* #contenu{
+    margin: auto;
+} */
+
+/************************ CONTENEUR DRAPEAUX - DESCRIPTION *************************/
+
+.parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+/************************ DRAPEAUX *************************/
+
+.cadre{
+    
+    justify-self: right;
+    width: 150px;
+    text-transform: uppercase;
+    margin: 10px;
+    overflow: hidden;
+}
+
+img{
+    width: 150px;
+    height: 100px;
+    opacity: 0.9;
+}
+
+/************************ DESCRIPTION PAYS *************************/
+
+.infos{
+    background-color: #212529;
+    letter-spacing: 3px;
+    justify-self: left;
+    min-width: 400px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2px;
+    padding: 0 15px;
+    text-align: left;
+    opacity: 0.9;
+
+}
+
+.pays, .zone{
+    color: orange;
+    text-transform: uppercase;
+}
+
+.capitale{
+    color: tomato;
+    font-weight: bold;
+}
+
+
